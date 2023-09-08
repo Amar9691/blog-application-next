@@ -14,10 +14,13 @@ Step 3 =>  create your account on sanity cloud environment and setup project and
 
 Step 4 => configure require environment variable by adding .env file in source code with following varibales 
 
-NODE_ENV=
-NEXT_PUBLIC_SANITY_PROJECT_ID==
-NEXT_PUBLIC_SANITY_DATASET=
-NEXT_PUBLIC_SANITY_API_READ_TOKEN=
+          NODE_ENV =
+          
+          NEXT_PUBLIC_SANITY_PROJECT_ID =
+          
+          NEXT_PUBLIC_SANITY_DATASET =
+          
+          NEXT_PUBLIC_SANITY_API_READ_TOKEN =
 
 
 Then, run the development server:
