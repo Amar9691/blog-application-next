@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+To Run this application in your local environment, Please follow given step
 ## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+First Step =>   Take clone of repository from https://github.com/Amar9691/blog-application-next
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Second Step =>  Install required packages using command 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+                npm install 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Step 3 =>  create your account on sanity cloud environment and setup project and confirgure your project with existing source code 
 
-To learn more about Next.js, take a look at the following resources:
+Step 4 => configure require environment variable by adding .env file in source code with following varibales 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NODE_ENV=
+NEXT_PUBLIC_SANITY_PROJECT_ID==
+NEXT_PUBLIC_SANITY_DATASET=
+NEXT_PUBLIC_SANITY_API_READ_TOKEN=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+Then, run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+      npm run dev 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+      or 
+
+      yarn dev
+
+Then open application in your browser => http://localhost:3000 
+
+Access sanity studio => http://localhost:3000/studio
